@@ -1,9 +1,6 @@
 ### remove the '#' to use the environment variables
 # export PRIVATE_KEY=asafdagadd
 # export WEB3_INFURA_PROJECT_ID=asdfsdf
-export PRIVATE_KEY = 0x95a09681e565163c3cbc9467212a8bcf993ef474b559c07017c7697237596085
-export WEB3_INFURA_PROJECT_ID = 03b492f37b284272a523fff2793cd273
-export ETHERSCAN_TOKEN = 8J9GF6ZMKDGZG7SH878FTB64F9NBAGQB25
 
 
 ### Optional - don't uncomment if you don't know what they do!
