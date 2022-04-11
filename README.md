@@ -24,10 +24,11 @@ Please install or have installed the following:
 
 1. [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), 
 ```
+pip install eth-brownie
 
 2. Clone this repo
 ```
-git clone 
+git clone https://github.com/ProjectVH/HUST2022.git
 ```
 
 1. [Install ganache-cli](https://www.npmjs.com/package/ganache-cli)
@@ -144,7 +145,7 @@ brownie test
 
 ## Resources
 
-This project was modifyed from Patrick Collins's [nft-mix project] (https://github.com/PatrickAlphaC/nft-mix)
+This project was modifyed from Patrick Collins's [nft-mix project] (https://github.com/PatrickAlphaC/nft-mix) under MIT license
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
