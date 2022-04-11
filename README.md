@@ -3,9 +3,9 @@
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/Receipt1.png" width="225" alt="Shopping Receipt">
-<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo2.png" width="400" alt="upload Portal">
-<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo3.png" width="400" alt="OpenSea Deploy">
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/Receipt1.png" width="300" alt="Shopping Receipt">
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo2.png" width="300" alt="upload Portal">
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo3.png" width="300" alt="OpenSea Deploy">
 </a>
 </p>
 <br/>
