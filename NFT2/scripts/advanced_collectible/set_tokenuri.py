@@ -4,7 +4,9 @@ from datetime import datetime
 
 
 star_meta_dic={
-    "RECEIPT1" :"ipfs://QmbYrefwkYAQ5fCbjjbNHArjtiVfCqcdyvvzWgRzuXxcrG?filename=0-RECEIPT1.json"
+    "RECEIPT1" :"ipfs://QmbYrefwkYAQ5fCbjjbNHArjtiVfCqcdyvvzWgRzuXxcrG?filename=0-RECEIPT1.json",
+    "RECEIPT2" :"ipfs://QmYztbnkG83mKKbyh1roi3dxVZVor6nZZAoGaBXtELNkds?filename=2-RECEIPT2.json",
+    "RECEIPT3" :"ipfs://QmT5zRzfreH6mJ1ikYr14ZN9PTzeQfy3t5eDzmHgTPHBJo?filename=1-RECEIPT3.json"
 
 }
 

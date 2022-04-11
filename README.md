@@ -1,13 +1,9 @@
-> Update: You should use `ipfs://` instead of `https://ipfs.io/` for your tokenURI
-
-# nft-mix
+# Turning shopping receipt into NFT
 
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/nft-mix/main/img/shiba-inu.png" width="225" alt="NFT Shiba Inu">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/nft-mix/main/img/pug.png" width="225" alt="NFT Pug">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/nft-mix/main/img/st-bernard.png" width="225" alt="NFT St.Bernard">
+
 </a>
 </p>
 <br/>
@@ -64,6 +60,7 @@ You can add your environment variables to the `.env` file:
 ```
 export WEB3_INFURA_PROJECT_ID=<PROJECT_ID>
 export PRIVATE_KEY=<PRIVATE_KEY>
+export UPLOAD_IPFS = true 
 ```
 
 Then, make sure your `brownie-config.yaml` has:

@@ -7,7 +7,9 @@ import requests
 import json 
 
 star_meta_dic={
-    "RECEIPT1":"ipfs://QmPVhHQyAE1eY6BsbbETFTfK5QUe39MDxhmeiWj7Tk6a71?filename=RECEIPT1.png"
+    "RECEIPT1":"ipfs://QmPVhHQyAE1eY6BsbbETFTfK5QUe39MDxhmeiWj7Tk6a71?filename=RECEIPT1.png",
+    "RECEIPT2":"ipfs://Qmd4DAbhigJ42yxXPQkcm9yK38SRE7zDLPiKHDP8DyCkQK?filename=RECEIPT2.png",
+    "RECEIPT3":"ipfs://QmNbqYMu2HZdMhDiAivG1SSwzqUFBqwZEup5gsZevUkY6s?filename=RECEIPT3.png"
 }
 
 
@@ -32,11 +34,12 @@ def write_metadata(number_of_tokens, nft_contract):
             print ("Creating Metadata File: {}".format(metadata_file_name))
             collectible_metadata["name"] = get_star(nft_contract.tokenIdToStar(token_id))
             collectible_metadata["description"]= "{} is formed".format(collectible_metadata["name"])
-            image_to_upload =None
+            image_to_upload = None
             if os.getenv("UPLOAD_IPFS") == "true":
                 image_path = "./img/{}.png".format(star)
                 image_to_upload = upload_to_ipfs(image_path)
-            image_to_upload = (star_meta_dic[star] if not image_to_upload else image_to_upload)
+            # image_to_upload = (star_meta_dic[star] if not image_to_upload 
+            # else image_to_upload)
             collectible_metadata["image"] = image_to_upload
             with open(metadata_file_name, "w") as file:
                 json.dump(collectible_metadata, file)
