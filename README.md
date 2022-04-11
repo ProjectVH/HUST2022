@@ -25,7 +25,7 @@ Please install or have installed the following:
 1. [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), 
 ```
 pip install eth-brownie
-
+```
 2. Clone this repo
 ```
 git clone https://github.com/ProjectVH/HUST2022.git
