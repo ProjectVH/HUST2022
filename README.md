@@ -3,14 +3,16 @@
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/Receipt1.png" width="225" alt="Shopping Receipt">
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo2.png" width="400" alt="upload Portal">
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo3.png" width="400" alt="OpenSea Deploy">
 </a>
 </p>
 <br/>
 
 This is a repo to work with and use NFTs smart contracts in a python environment, using the Chainlink-mix as a starting point. 
 
-If you'd like to see another repo using random NFTs that are deployed to mainnet, check out the [D&D package](https://github.com/PatrickAlphaC/dungeons-and-dragons-nft).
+
 
 ## Prerequisites
 
@@ -20,23 +22,12 @@ Please install or have installed the following:
 - [python](https://www.python.org/downloads/)
 ## Installation
 
-1. [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), if you haven't already. Here is a simple way to install brownie.
-
-```bash
-pip install eth-brownie
-```
-Or, if that doesn't work, via pipx
-```bash
-pip install --user pipx
-pipx ensurepath
-# restart your terminal
-pipx install eth-brownie
+1. [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), 
 ```
 
 2. Clone this repo
 ```
-brownie bake nft-mix
-cd nft
+git clone 
 ```
 
 1. [Install ganache-cli](https://www.npmjs.com/package/ganache-cli)
@@ -69,33 +60,23 @@ Then, make sure your `brownie-config.yaml` has:
 dotenv: .env
 ```
 
-You can also [learn how to set environment variables easier](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html)
-
 
 Or you can run the above in your shell. 
 
 
 # Usage
 
-There are 2 types of NFTs here. 
-1. `SimpleCollectibles.sol`
-2. `AdvancedCollectibles.sol`
+There is 1 types of NFTs here. 
 
-They each deploy unique dogs. The advanced version gives you a random breed (out of a Pug, Shiba Inu, and St. Bernard).
+1. `AdvancedCollectibles.sol`
 
-The advanced collection uses a [Chainlink VRF](https://docs.chain.link/docs/get-a-random-number) to deploy the random dog. 
+It can deploy uploaded receipes as NFT to Opensea plaform which has ben tested on rinkeby Testent environment. 
 
-You can 100% use the rinkeby testnet to see your NFTs rendered on opensea, but it's suggested that you test and build on a local development network so you don't have to wait as long for transactions. 
 
 ### Running Scripts
 
 The simple collectibles work on a local network,  however the advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
 
-# For the Simple ERC721
-```
-brownie run scripts/simple_collectible/deploy_simple.py --network rinkeby
-brownie run scripts/simple_collectible/create_collectible.py --network rinkeby
-```
 
 # For the Advanced ERC721
 
@@ -153,19 +134,6 @@ brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
 ```
 And after some time, (you may have to wait up to 20 minutes for it to render on opensea), you should see your NFT on opensea! [It'll look something like this.](https://testnets.opensea.io/assets/0x8acb7ca932892eb83e4411b59309d44dddbc4cdf/0)
 
-## *NEW* Pinata
-
-If you want to auto-upload to pinata instead of IPFS automatically, you can do so by getting a [Pinata API Key.](https://pinata.cloud/documentation#GettingStarted)
-
-You'll need the following environment variables (you can get them from Pinata)
-```
-PINATA_API_KEY
-PINATA_API_SECRET
-```
-Then run:
-```
-python scripts/upload_to_pinata.py
-```
 
 ## Testing
 
@@ -173,29 +141,10 @@ python scripts/upload_to_pinata.py
 brownie test
 ```
 
-## Linting
-
-```
-pip install black 
-pip install autoflake
-autoflake --in-place --remove-unused-variables -r .
-black .
-```
 
 ## Resources
 
-To get started with Brownie:
-
-* [Chainlink Documentation](https://docs.chain.link/docs)
-* Check out the [Chainlink documentation](https://docs.chain.link/docs) to get started from any level of smart contract engineering. 
-* Check out the other [Brownie mixes](https://github.com/brownie-mix/) that can be used as a starting point for your own contracts. They also provide example code to help you get started.
-* ["Getting Started with Brownie"](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99) is a good tutorial to help you familiarize yourself with Brownie.
-* For more in-depth information, read the [Brownie documentation](https://eth-brownie.readthedocs.io/en/stable/).
-
-Shoutout to [TheLinkMarines](https://twitter.com/TheLinkMarines) on twitter for the puppies!
-
-Any questions? Join our [Discord](https://discord.gg/2YHSAey)
-
+This project was modifyed from Patrick Collins's [nft-mix project] (https://github.com/PatrickAlphaC/nft-mix)
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
