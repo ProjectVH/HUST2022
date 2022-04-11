@@ -95,7 +95,7 @@ brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
 
 # Verify on Etherscan
 
-The simple contract and the advanced contract can be verified if you just set your `ETHERSCAN_TOKEN`. 
+The advanced contract can be verified if you just set your `ETHERSCAN_TOKEN`. 
 
 ## Misc
 There are some helpful scripts in `helpful_scripts.py`.
