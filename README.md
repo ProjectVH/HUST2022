@@ -3,7 +3,7 @@
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/Polar.png" width="225" alt="NFT Shiba Inu">
+<img src="https://github.com/ProjectVH/HUST2022/blob/main/NFT2/img/demo2.png" width="225" alt="demo2">
 </a>
 </p>
 <br/>
