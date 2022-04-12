@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from brownie import AdvancedCollectible
 from scripts.helpful_scripts import fund_with_link
 

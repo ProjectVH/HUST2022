@@ -22,24 +22,7 @@ if option == 'upload':
                 file_name="receipt.png",
                 mime="image/png"
             )
-    
-    # else:
-    #     print (Hello")
-    # with open(image) as file:
-    #     btn = st.download_button(
-    #         label = "Dowload receipt",
-    #         data = file, 
-    #         file_name = "receipt.png",
-    #         mime="image/png"
-    #     )
-
 
 if option == 'download': 
     st.title("Hello")
-#     with open(image) as file:
-#         btn = st.download_button(
-#             label = "Dowload receipt",
-#             data = file, 
-#             file_name = "receipt.png",
-#             mime="image/png"
-#         )
+

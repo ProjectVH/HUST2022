@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 from brownie import AdvancedCollectible, accounts, config
 from scripts.helpful_scripts import get_star, fund_with_link, listen_for_event
 import time

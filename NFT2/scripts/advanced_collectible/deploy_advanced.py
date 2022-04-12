@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 from brownie import AdvancedCollectible, accounts, network, config
 from scripts.helpful_scripts import fund_with_link, get_publish_source
 
