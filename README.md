@@ -71,7 +71,7 @@ There is 1 types of NFTs here.
 
 1. `AdvancedCollectibles.sol`
 
-It can deploy uploaded receipes as NFT to Opensea plaform which has been tested on rinkeby Testent environment. Users can upload their receipts via streamlit portal. 
+It can deploy uploaded receipts as NFT to Opensea platform which has been tested on rinkeby Testent environment. Users can upload their receipts via Streamlit portal. 
 
 
 ### Running Scripts
