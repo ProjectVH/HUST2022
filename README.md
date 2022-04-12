@@ -133,7 +133,7 @@ Run
 ```
 brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
 ```
-And after some time, (you may have to wait up to 20 minutes for it to render on opensea), you should see your NFT on opensea! [It'll look something like this.](https://testnets.opensea.io/assets/0x8acb7ca932892eb83e4411b59309d44dddbc4cdf/0)
+And after some time, (you may have to wait up to 20 minutes for it to render on opensea), you should see your NFT on opensea! [It'll look something like this.](https://testnets.opensea.io/assets/0xdbef673150beb96ec767d5152f0a373792e30404/0)
 
 
 ## Testing
@@ -145,7 +145,7 @@ brownie test
 
 ## Resources
 
-This project was modifyed from Patrick Collins's [nft-mix project] (https://github.com/PatrickAlphaC/nft-mix) under MIT license
+This project was modified from Patrick Collins's [nft-mix project] (https://github.com/PatrickAlphaC/nft-mix) under MIT license
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
